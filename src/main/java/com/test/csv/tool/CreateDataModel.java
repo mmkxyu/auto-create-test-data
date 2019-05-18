@@ -32,8 +32,8 @@ public class CreateDataModel {
      * @return
      */
     //生成mixLength,maxLength闭闭区间的随机数字和字母
-    //如mixLength为6，maxLength为14则flag为equal时生成6到14位的随机数字和字母，
-    // flag为more时生成超过14位的随机数字和字母，flag为less时生成小于6位的随机数字和字母
+    //如mixLength为6，maxLength为14则rd为equal时生成6到14位的随机数字和字母，
+    // rd为more时生成超过14位的随机数字和字母，rd为less时生成小于6位的随机数字和字母
     public static String getStringRandom(int mixLength,int maxLength,randomData rd) {
         int length;
         String val = "";
